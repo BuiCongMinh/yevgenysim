@@ -7,7 +7,86 @@
 
 /* header  */
 .header{
+    position: relative;
+    position: fixed;
     height: 93.16px;
-    /* background: rgb(175, 165, 165); */
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    z-index: 1;
+    width: 100%;
+    padding: 20px 16px;
+    color: white;
+   
+
+    /* border-bottom: 1px solid rgba(0, 0, 0, .1); */
+}
+/* header> container  */
+.container{
+    height: 53.16px;
+    padding: 0px 24px;
+    margin: 0px 58.5px;
+    display: flex;
+}
+/* header> container >left */
+.left{
+    width: 9%;
+    height: 53.16px;
+    padding: 12.5px 0;
+    margin-right: 16px;
+
+}
+.left a{
+    text-decoration: none;
+    font-size: 60px;
+    font-size: 19px;
+    font-family: fontHeadMain;
+    color: white;
+}
+/* header> container >right */
+.right{
+    width: 95%;
+    height: 53px;
+    font-size: 16px;
+    margin-right:59.031px ;
+    
+    display: flex;
+    
+}
+/* header> container >right> icon */
+.right .icon{
+    width: 30%;
+    left: 0px;
+    line-height: 53px;
+    font-size: 12px;
+}
+.icon span{
+    padding: 15px;
+}
+.icon i{
+    padding: 15px;
+}
+
+/* header> container >right> menu */
+.menu{
+    width:70%;
+   
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* hero */
+.hero{
+    height: 657px;
+    width: 100%;   
+    position: relative;
+}
+.herBgImg {
+    position: absolute;
+}
+
+
+@font-face{
+    font-family: fontHeadMain;
+    src :url("../Bakbak_One/BakbakOne-Regular.ttf")
 }
